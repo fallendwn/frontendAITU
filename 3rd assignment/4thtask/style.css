@@ -1,0 +1,141 @@
+
+body{
+
+    background-image:url(../images/kaneki-background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+
+}
+body *{
+    border-radius: 16px;
+}
+header{
+    margin: 0 auto;
+    width: 85%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+.header-icon{
+    
+    width: 70px;
+    height: 70px;
+
+}
+
+.header-right-side{
+
+    width: 100%;
+    height: 100%;
+
+}
+.header-right-side nav{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main{
+
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+    color: white;
+    column-span: 2;
+}
+
+/* .cards{
+    margin-top: 30px;
+    display: grid;
+    grid-column: 2f; 
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    gap: 30px;
+
+} */
+.card1{
+    margin-top:30px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1 1;
+    grid-row: 1 1;
+    height: 300px;
+}
+
+.card2{
+
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 300px;
+}
+
+
+.information{
+
+    grid-column-start: 2;
+    grid-row-start:1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    margin-top: 30px;
+    background-color: black;
+
+
+}
+
+.first-text{
+    display:none;
+}
+
+.second-text{
+    display: none;
+}
+
+
+.card1:hover ~ .information .first-text{
+
+  display: block;
+
+}
+
+
+.card2:hover ~ .information .second-text{
+
+  display: block;
+
+}
+
+footer{
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px;
+    left: 0;
+    color: white;
+    text-align: center;
+}
