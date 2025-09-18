@@ -1,0 +1,343 @@
+
+body{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+}
+
+header{
+    
+    position:fixed;
+    display: flex;
+    height: 600px;
+    width: 15%;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#profile-photo{
+    margin-left: 15px;
+    margin-top: 40px;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+
+}
+
+#work-plato{
+
+    background-color:#062D1D;
+    color: #4DE682;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    height: 25px;
+    align-items: center;
+    padding-top: 4px;
+    
+
+}
+
+.links{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    width: 80%;
+    align-items: center;
+
+}
+
+
+.links p{
+
+    font-size: 20px;
+
+}
+
+.links img{
+
+    width: 16px;
+    height: 16px;
+
+}
+
+
+#home:hover{
+
+    color: #51AC12;
+
+
+}
+
+#home:hover #home-page-img{
+
+    transform: scale(1.2);
+
+}
+
+#projects:hover{
+
+    color: #51AC12;
+}
+
+#projects:hover #projects-img{
+
+    transform: scale(1.2);
+
+}
+
+#contact:hover{
+
+    color: #51AC12;
+}
+
+#contact:hover #contact-img{
+
+    transform: scale(1.2);
+
+}
+
+#main1{
+    position:relative;
+    margin-left: 400px;
+    
+}
+
+#greeting{
+
+    color: white;
+    font-size: 32px;
+
+}
+
+
+#recent-projects{
+
+    margin-top: 200px;
+    display: grid;
+    grid-template-rows: 100px 2fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+}
+
+#recent-projects-title{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: white;
+    font-size: 26px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 50px;
+
+}
+
+#first-project{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 500px;
+    width: 700px;
+    background-image: url(images/1st_project.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 3px solid gray ;
+    text-align: center;
+}
+
+#second-project{
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 700px;
+    height: 500px;
+    background-image: url(images/2project.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 3px solid gray ;
+    text-align: center;
+}
+
+.tt{
+
+    width: 100%;
+    height: 80%;
+
+}
+
+#first-project-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+
+}
+
+#second-project-text{
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+
+}
+
+#skills{
+
+    margin-top: 300px;
+
+}
+
+#my-skills{
+
+    color: white;
+    font-size: 24px;
+
+}
+
+
+.proglang{
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 450px 450px 450px;
+    gap: 30px;
+
+
+}
+
+
+.proglang div{
+    border: 3px solid gray;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 16px;
+}
+.proglang div img{
+
+    width: 40px;
+    height: 40px;
+}
+
+.rights{
+
+    margin-top: 300px;
+    width: 100%;
+
+}
+
+.divider{
+    
+    width: 1px;
+    height: 100vh;
+    background-color: gray;
+    position: fixed;
+    left: 15%;
+    top: 0;
+
+}
+
+.cards{
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.cards div{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 16px;}
+.cards div img{
+
+    width: 40%;
+    height: 40%;
+
+
+}
+
+.cards{
+
+    margin-left: 350px;
+
+}
+
+#main3{
+
+    margin-left: 450px;
+    margin-top: 150px;
+
+}
+
+
+#dm{
+
+    color: white;
+    font-size: 32px;
+
+}
+
+#dm-links{
+
+    margin-top: 100px;
+    
+
+}
+
+p:hover{
+
+    color: #51AC12;
+
+}
+#twotypes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#straightmail{
+    color: white;
+    font-size: 32px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.inputss{
+    
+background-color: wheat;
+border-radius: 16px;
+height: 30px;
+color: green;
+
+}
+
+#textBig{
+    width: 365px;
+    height: 200px;
+    background-color: wheat;
+}
+
+#submit{
+
+    width: 365px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: #062D1D;
+
+
+}
