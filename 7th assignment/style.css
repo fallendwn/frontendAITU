@@ -1,0 +1,51 @@
+#cinamonroll{
+
+    width: 300px;
+    height: 300px;
+
+}
+
+#pong{
+
+    width: 30px;
+    height: 100px;
+    background-color: black;
+
+}
+
+#badimage{
+
+    width: 100px;
+    height: 100px;
+    
+
+}
+
+#animating{
+
+    width: 100px;
+    height: 100px;
+    background-color:bisque;
+    position: relative;
+
+}
+
+#animating2{
+
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    position: relative;
+    left: 300px; 
+
+}
+
+#animating3{
+
+    width: 100px;
+    height: 100px;
+    background-color:aquamarine;
+    position: relative;
+    left: 300px; 
+
+}
