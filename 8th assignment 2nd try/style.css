@@ -1,0 +1,170 @@
+body{
+
+    background-color: black !important;
+}
+#logo-name{
+
+    margin-left: 20px;
+
+}
+
+
+.BORDER{
+    height: 600px;
+    border: 3px solid black;
+
+}
+
+#first-project{
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#second-project{
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.projectsMain{
+
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+@media (max-width: 1250px) and (min-width: 801px) {
+
+    .cards{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #first{
+
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+    }
+
+
+    #second{
+
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+    }
+
+    #third{
+        
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+}
+
+@media (max-width:800px){
+
+    .somefont{
+        font-size:5px;
+    }
+
+    .cards{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media(min-width:1251px){
+
+
+
+    .cards{
+        display:flex;
+        justify-content: space-around;
+
+    }
+
+}
+.cards div{
+    background-color: black;
+    border: 3px gray solid;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cards img{
+
+    width: 200px;
+    height: 200px;
+
+}
+
+#bigtext{
+    margin-bottom: 30px;
+    font-size: 24px;
+
+}
+footer{
+    margin-top: 100px;
+    width: 100vw;
+    background-color: black;
+    bottom: 0;
+    border-radius: 0px;
+    left: 0;
+    color: white;
+    text-align: center;
+}
+
+.cards p{
+    display: none;
+}
+
+.inputss{
+    
+background-color: wheat;
+border-radius: 16px;
+height: 30px;
+color: green;
+
+}
+
+#textBig{
+    width: 365px;
+    height: 200px;
+    background-color: wheat;
+}
+
+#submit{
+
+    width: 365px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: #062D1D;
+
+
+}
+
+#contactme{
+
+    margin-top: 300px;
+
+}
