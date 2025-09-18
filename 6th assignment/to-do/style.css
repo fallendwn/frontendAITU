@@ -1,0 +1,37 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+
+    width: 500px;
+    height: 100px;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+main{
+    font-size: 30px;
+    width: 500px;
+    height: 100%;
+    background-color: blanchedalmond;
+
+}
+
+#add{
+    width: 50px;
+    height: 30px;
+}
+
+#to-do-list{
+    overflow-wrap: break-word;
+}
+
+.strike-text{
+
+    text-decoration: line-through;
+
+}
